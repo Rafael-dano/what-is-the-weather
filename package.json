@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "axios": "^1.7.9",
+    "expresss": "^0.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.0"
+  },
+  "name": "what-is-the-weather",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafael-dano/what-is-the-weather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Rafael-dano/what-is-the-weather/issues"
+  },
+  "homepage": "https://github.com/Rafael-dano/what-is-the-weather#readme",
+  "description": ""
+}

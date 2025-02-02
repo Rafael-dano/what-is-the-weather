@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    /* Modules */
+    "module": "ES2020",  // Ensures compatibility with Node.js imports
+    "moduleResolution": "node",  // Ensures Node.js style module resolution
+    "target": "ES2020",  // Use ES2020 or later to support async/await and ES modules
+    "lib": ["ES2020", "DOM"],  // Includes Node.js and DOM types
+    "rootDir": "src",  // Specify the root folder for your source files
+    "outDir": "dist",  // Specify an output folder for all emitted files
+    "esModuleInterop": true,  // Allows default imports from CommonJS modules
+    "skipLibCheck": true,  // Skips type checking of declaration files to speed up compilation
+    "strict": true,  // Enforces strict type checking options
+    "resolveJsonModule": true  // Allow importing JSON modules
+  },
+  "include": ["src"]
+}
